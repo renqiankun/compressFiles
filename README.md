@@ -1,5 +1,5 @@
 # compressedFiles
-使用node.js移除项目中单行注释、文件内代码压缩为一行(不改变原项目)
+使用node.js移除项目中单行注释、文件内代码压缩为一行(不改变原项目)，已在vue3上试用。
 ##### 一、运行
        pnpm i 或 npm install 
 ##### 二、修改执行文件index.js 注意事项：

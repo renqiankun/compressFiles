@@ -63,6 +63,7 @@ const getAllFileListHand = async () => {
   await prettierHand();
   console.log('开始去除换行符');
   removeLrHand(list);
+  console.log('压缩结束');
 };
 /**
  * 格式化文件

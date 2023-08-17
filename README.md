@@ -6,7 +6,7 @@
      1、修改originDir(原项目目录)自动复制项目进/source，
      2、ignoreFileList 忽略的文件夹目录，
      3、compressFileSuffix 需要压缩的文件后缀
-     4、目前部分文件会导致删除注释时停止，暂没有找原因请编辑utis/index.js的 getFileContentHand()方法中的ignoreList过滤此文件
+     4、目前部分文件会导致删除注释时停止(耗时过长)，暂没有找原因请编辑utis/index.js的 getFileContentHand()方法中的ignoreList过滤此文件
 
 ##### 三、运行
         node index.js
